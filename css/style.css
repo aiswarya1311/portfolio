@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    /* cursor: url('../images/cursor.png'),auto ; */
+    
+  }
+  .body{
+    /* cursor: url('../images/cursor.png'),auto ; */
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+ 
+  .nav-item{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 2vh;
+   
+    
+  }
+  .navbar-brand{
+    opacity: 0;
+  }
+  .hi{
+      font-size: 6vh;
+     
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: 4px;
+     color:black ;
+     font-weight: 800;
+     cursor: default;
+
+  }
+  .im{
+    font-size: 6vh;
+    font-family: 'Open Sans', sans-serif;
+   
+    letter-spacing: 1px;
+    color: black; 
+    font-weight: 800;
+    cursor: default;
+  
+}
+.pro{
+  margin-left: 18vh;
+}
+  .there{
+    font-size: 6vh;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: 800;
+    cursor: default;
+   
+  }
+  .abhi{
+    font-size: 6vh;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: 800;
+    cursor: default;
+    
+   
+  }
+  .front{
+    font-size: 2.1vh;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+    cursor: default;
+   
+  }
+  .scrolltxt{
+    line-height: .5vh;
+    margin-top: 20vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7vh;
+    font-weight: 800;
+    color: #dddddd;
+    opacity: 0;
+  }
+  .soicon{
+    margin: 2.2vh;
+  }
+  .about{
+    line-height: 1vh;
+    margin-top:0vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2vh;
+    font-weight: 800;
+    color:  #dddddd;
+    background-color: black;
+    padding: 13vh 0vh 8vh 0vh ;
+   
+  }
+  .mh{
+    margin-top: 4vh;
+    opacity: 0;
+  }
+  .mi{
+opacity: 0;
+  }
+  .front1{
+    opacity: 0;
+  }
+  .front2{
+    opacity: 0;
+  } 
+  .front3{
+    opacity: 0;
+  }
+  .btns{
+    opacity: 0;
+  }
+  .des{
+    line-height: 1px;
+   
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14;
+    font-weight: 800;
+    color: black;
+    margin-top: 9.5vh;
+  }
+  .aboutme{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.1vh;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 3px;
+    text-align: justify;
+    
+   padding: 0vh 5vh 0vh 5vh;
+    line-height: 5vh;
+   
+  }
+  .uiux{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14;
+    color:white;
+    border: 2px solid black;
+    margin: 10vh;
+    margin-top: 12vh;
+    background-color: black;
+    padding: 3vh;
+    
+    line-height: 11px;
+  }
+  .btnprojects{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14;
+    color: black;
+    border: 1px solid black;
+padding: 1.1vh 2.9vh 1.1vh 2.9vh;
+font-weight: 800;
+border-radius: 2px;
+letter-spacing: 1px;
+text-decoration: none !important;
+
+
+  }
+  .btnprojects:hover{
+    margin-top: 3vh;
+  }
+  .btncv{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14;
+    background-color: black;
+    color:#dddddd ;
+    border: 1px solid black;
+padding: 1.1vh 2.9vh 1.1vh 2.9vh;
+font-weight: 800;
+border-radius: 2px;
+letter-spacing: 2px;
+
+
+  }
+  .ok{
+    padding: 20vh 25vh 12vh 25vh; 
+  }
+.icon1{
+  opacity: 0;
+}
+.icon2{
+  opacity: 0;
+}
+.icon3{
+  opacity: 0;
+}
+.icon4{
+  opacity: 0;
+}
+.icon5{
+  opacity: 0;
+}
+
+.scrollletter{
+  transform: rotate(-90deg);
+}
+
+.firstcolm:before,
+.firstcolm:after{
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: black;
+}
+.firstcolm:before{
+  animation: reveal 1s ease-out forwards;
+}
+.firstcolm:after{
+  background-color: black;
+  animation: base 1s ease-out forwards;
+}
+@keyframes reveal{
+  0%{
+    transform: translate(-100%);
+  }
+  100%{
+    transform: translate(100%);
+  }
+}
+@keyframes base{
+  0%{
+    transform: translate(0%);
+  }
+  100%{
+    transform: translate(100%);
+  }
+}
+
+
+
+/* page3 */
+.skillrow{
+  padding: 12vh 25vh 20vh 25vh; 
+  font-family: 'Open Sans', sans-serif;
+    font-size: 2vh;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 2.3px;
+   
+    text-align: center;
+  
+    line-height: 6vh;
+}
+.skill{
+ 
+ margin: 1vh 2vh 10px 2vh !important;
+  border-left: 1px solid rgb(182, 182, 182);
+  border-right: 1px solid  rgb(182, 182, 182);
+  padding: .8vh 1.3vh .8vh 1.3vh;
+}
+.sskill{
+  line-height: 1vh;
+  margin-top:0vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2vh;
+  font-weight: 800;
+  color:  #dddddd;
+  background-color: black;
+  padding: 11vh 0vh 6vh 0vh ;
+ 
+}
+.projectrow{
+  padding-bottom: 7vh;
+}
+.projecthead{
+  margin-top: 7vh;
+  margin-bottom: 9vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.8vh;
+  font-weight: 800;
+  letter-spacing: .6vh;
+}
+.moon{
+  padding-top: 10vh;
+  line-height: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .2vh;
+  font-size: 2.1vh;
+  font-weight: 800;
+  color: rgb(70, 70, 70);
+}
+.moonhead{
+  font-size: 2.4vh;
+  letter-spacing: .3vh;
+  color: black;
+
+}
+.port{
+  padding-top: 10vh;
+  line-height: 2vh;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .2vh;
+  font-size: 2.1vh;
+  font-weight: 800;
+  color: rgb(70, 70, 70);
+
+}
+.doehead{
+  font-size: 2.4vh;
+  letter-spacing: .3vh;
+  color: black;
+}
+.livedemobtn{
+  background-color: black;
+  color: white;
+  padding: .8vh 1.5vh .8vh 1.5vh ;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .1vh;
+  font-size: 1.8vh;
+  font-weight: 500;
+  text-decoration: none !important;
+  
+}
+.footer{
+  background-color:  #dddddd;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .3vh;
+  font-size: 1.8vh;
+  font-weight: 700;
+}
+  @media only screen and (max-width: 600px) {
+
+    
+    .mi{
+        margin-top: 15vh;
+     }
+     .hi,.im,.there,.abhi{
+       font-size: 3.8vh;
+
+     }
+    .front{
+      
+        font-size: 2vh;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 2px;
+        
+       
+      }
+      .ok{
+        padding: 0;
+      }
+      .pro{
+        margin-left: 0vh;
+      }
+      .scrolltxt{
+        display: none;
+      }
+      .scro{
+        height: 70vh !important;
+      }
+      .abtrow{
+        margin-top: 2px;
+      }
+      .firstcolm:after{
+        display: none;
+        }
+        .firstcolm:before{
+          display: none;
+          }
+      .skillrow{
+        padding: 0 !important;
+      }
+      .apex{
+        padding: 2vh !important;
+      }
+      .cursor{
+        display: none;
+      }
+      .firstck {
+        order: 0 !important;
+    }
+    .secondck{
+      order: 1 !important;
+    }
+    .moon{
+      padding-top: .1vh;
+      line-height: 2vh;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: .2vh;
+      font-size: 1.8vh;
+      font-weight: 800;
+      color: rgb(70, 70, 70);
+      margin-bottom: 8vh;
+    }
+    .moonhead{
+      font-size: 1.9vh;
+      letter-spacing: .3vh;
+      color: black;
+    
+    }
+
+    .port{
+      padding-top: .1vh;
+      line-height: 2vh;
+      font-family: 'Open Sans', sans-serif;
+      letter-spacing: .2vh;
+      font-size: 1.8vh;
+      font-weight: 800;
+      color: rgb(70, 70, 70);
+    }
+    .doehead{
+      font-size: 1.9vh;
+      letter-spacing: .3vh;
+      color: black;
+    
+    }
+  }
